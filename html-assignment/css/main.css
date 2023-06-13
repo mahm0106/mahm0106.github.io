@@ -1,0 +1,57 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+header, footer {
+    background-color: forestgreen;
+}
+
+#site-title {
+    color: white;
+}
+
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px #000000;
+} 
+
+
+ul#hobbies {
+    list-style-type: square;
+}
+
+ul#hobbies > li:nth-child(odd){
+    background-color: rgb(151, 195, 28);
+
+
+}
+
+/* Change link styling */
+.topnav ul{
+    list-style-type:none;
+}
+.topnav a{
+        color: #000;
+        text-decoration: none;
+        background-color: rgb(0, 255, 38);
+        border: 2px solid #ffffff;
+
+}
+.topnav a:hover {
+    text-decoration: none;
+    border: none;
+    background-color: yellow;
+}
+
+
+/*
+ul.navigation > li {
+    list-style-type: none;
+    
+}
+
+a {
+    text-decoration: none;
+
+}*/
