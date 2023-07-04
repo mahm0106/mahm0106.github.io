@@ -1,0 +1,167 @@
+body{
+    background-color: #aad4cf; /* main background of website */
+    font-family: "Gill Sans", sans-serif; /* fonts for all texts */
+}
+
+/* resizing width of contents and setting a background for it */
+.wrap{
+    margin:auto;
+    width: 900px;
+    background-color:#b7e2dd;
+    margin-bottom: 15px;
+}
+
+header{
+    position: relative;
+}
+
+/* Heading styling */
+
+.starfish-heading{
+    width:900px;
+    height: 300px;
+}
+
+#title-heading{
+    color:white;
+    position:absolute;  
+    margin: auto;
+    top:175px;
+    left:300px;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Navigation bar styling */
+
+nav{
+    text-align: center;
+    position: relative;
+}
+
+
+nav ul li{
+    display: inline-block;
+    height: 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 0;
+    padding-right: 102px;
+    padding-left: 102px;
+}
+
+.vl {
+    border-left: 1px solid black;
+    height: 35px;
+}
+
+/* Story section */
+
+#story-section{
+
+    font-size: 30px;
+    padding: 10px;
+}
+
+/* Starfish image and its story resize and positioning */
+
+.sub-heading{
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.starfish{
+    height: 305px;
+    width: 305px;
+    position: relative;
+    float:left;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.story-paragraph{
+    font-size:14px;
+    word-spacing: normal;
+    line-height: 21.75px;
+}
+
+/* List styling about starfish */
+
+.facts{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.sub-sub-heading{
+    font-size:25px;
+}
+
+.fact ul{
+    list-style-type: disc;
+    font-size: 13px;
+
+}
+
+.fact ul li{
+    margin-left: -25px;
+}
+
+/* form section styling */
+
+#contact{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#information{
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.information-label{
+    font-size: 15px;
+}
+
+#fullname, #email {
+    width: 99%;
+    margin:10px 0;
+}
+
+.question{
+    margin:10px 0;
+    font-size:19px;
+}
+
+.choice{
+    margin-bottom: 7px;
+}
+
+.choice-label{
+    font-size:13px;
+}
+
+.message-text{
+    margin:10px 0;
+    width: 99%;
+    resize: none;
+}
+.send-button{
+    background-color:#b7e2dd;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid black;
+}
+
+/* copyright section positioning*/
+
+.copyright{
+    padding:25px;
+    text-align: right;
+    font-size: 10px;
+}

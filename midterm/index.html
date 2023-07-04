@@ -5,8 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Midterm</title>
     <link rel="stylesheet" href="css/main.css">
-</head>
-<body>
     
+<body>
+<!-- sets a wrapper to resize width and centers its contents -->
+    <div class="wrap">
+
+    <header>
+        <h1 id="title-heading">Lone Starfish</h1>
+        <img class="starfish-heading" src="images/lone-starfish-wide.jpg" alt="wide starfish">
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><div class="vl"></div></li>
+            <li><a href="#story">Story</a></li>
+            <li><div class="vl"></div></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+<!--Story section-->
+
+    <section id="story-section">
+        <h2 class="sub-heading">Life of a Starfish</h2>
+        <img class="starfish" src="images/lone-starfish.jpg" alt="starfish">
+        <p class="story-paragraph">
+            Swallower catla Black angelfish grunter striped bass scissor-tail rasbora; slender mola. Snapper catalufa silver driftfish, kaluga lungfish boga greeneye, "french angelfish peamouth halfbeak batfish Australian prowfish mouthbrooder." Gibberfish tui chub mooneye smoothtongue; amur pike barbeled houndshark dwarf loach beachsalmon archerfish longfin fingerfish, thornfish: plownose chimaera gurnard. Dragon goby long-finned char bluntnose knifefish aruana eelpout elasmobranch snipefish; rock bass sea devil trunkfish. Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra. Modoc sucker northern clingfish mudsucker x-ray tetra squaretail jackfish. Paradise fish cuchia Redhorse sucker ayu Ganges shark rockling flyingfish pearleye mahi-mahi yellow weaver: ghost pipefish ide armoured catfish halibut. Torpedo; leopard danio minnow leatherjacket hardhead catfish wobbegong trench squeaker crestfish, halibut glowlight danio sailback scorpionfish unicorn fish. Tadpole cod ricefish Shingle Fish emperor drum yellow-edged moray velvet catfish flabby whalefish. Featherfin knifefish plaice pike eel tarwhine Black triggerfish pearl danio cownose ray. Merluccid hake, platy peamouth humuhumunukunukuapua'a barred danio. Black dragonfish, stingray lightfish Australian lungfish searobin false trevally, dottyback.
+        </p>
+
+<!--List about starfish-->
+
+        <div class="fact">
+            <h3 class="sub-sub-heading">Facts About Starfish</h3> 
+            <ul>
+                <li>
+                    Australian herring barbel Mexican golden trout, killifish bonito; northern anchovy. 
+                </li>
+                <li>
+                    Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
+                </li>
+                <li>
+                    Herring barbel Mexican golden trout, killifish bonito; northern anchovy. 
+                </li>
+                <li>
+                    Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!--form section-->
+
+    <section id="contact">
+        <h3 class="sub-sub-heading">Contact to learn more</h3>
+        <div id="information">
+            <form>
+                <label class="information-label" for="fullname">Your name:</label>
+                <br>
+                <input type="text" id="fullname" name="fullname">
+                <br>
+                <label class="information-label" for="email">Your email:</label>
+                <br>
+                <input type="text" id="email" name="email">
+                <br>
+
+                <label class="information-label" for="message">Your message:</label>
+                <br>
+                <textarea id="message" class="message-text" cols ="92" rows ="10"></textarea>
+
+
+                <h4 class="question">Would you like to visit the starfish?</h4>
+
+                <div class="choice">
+
+                    <label class="choice-label" for="yes">Yes</label>
+                    <input type="radio" id="yes" name="visit" value="yes">
+                    <label class="choice-label" for="no">No</label>
+                    <input type="radio" id="no" name="visit" value="no">
+                    <label class="choice-label" for="maybe">Maybe</label>
+                    <input type="radio" id="maybe" name="visit" value="maybe">
+                
+                </div>
+                
+                <button class="send-button" type="submit">Send</button>
+
+            </form>
+        </div>
+    </section>
+
+    <!--Copyright-->
+    <div class="copyright">&copy; Lone Starfish 2022</div>
+    
+</div>
 </body>
 </html>
