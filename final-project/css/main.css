@@ -1,0 +1,17 @@
+#welcome {
+    background-image: url(../images/main-banner.jpg); /*wop*/
+  
+    color:white;
+}
+
+#welcome-container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+#vision{
+    background-image: url(../images/vision.jpg); /*wop*/
+    background-size: 100% auto;
+
+    color:white;
+}
